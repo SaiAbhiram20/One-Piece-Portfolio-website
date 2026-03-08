@@ -5,7 +5,7 @@ export const personalInfo = {
   email: 'Abhiramsgoud2003@gmail.com',
   phone: '+1 (361) 695-4112',
   location: 'Corpus Christi, TX (Open to Relocation)',
-  linkedin: 'https://www.linkedin.com/in/sai-abhiram-goud-seekati',
+  linkedin: 'https://www.linkedin.com/in/saiabhiramgoudseekati',
   github: 'https://github.com/SaiAbhiram20',
   instagram: 'https://www.instagram.com/saiabhiramgoud_20',
   resumeUrl: '/Sai-Abhiram-Goud-Seekati-Resume.pdf',

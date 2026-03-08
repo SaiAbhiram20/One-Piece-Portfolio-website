@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import ScrollReveal from '../shared/ScrollReveal';
 import SectionHeading from '../shared/SectionHeading';
 import { personalInfo } from '../../data/resumeData';
@@ -91,6 +91,16 @@ export default function Contact() {
                 >
                   <FaGithub />
                 </a>
+                <a
+                  href={personalInfo.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                  aria-label="Instagram Profile"
+                >
+                  <FaInstagram />
+                </a>
+
               </div>
 
               <a
