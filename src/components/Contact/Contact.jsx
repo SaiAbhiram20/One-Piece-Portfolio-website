@@ -39,7 +39,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className={`section ${styles.contact}`} aria-label="Contact">
+    <section id="contact" className={`section ${styles.contact} bg-parchment-fixed`} aria-label="Contact">
       <div className="container">
         <ScrollReveal>
           <SectionHeading

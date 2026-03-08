@@ -30,7 +30,7 @@ function SkillTag({ name, icon }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className={`section ${styles.skills}`} aria-label="Skills">
+    <section id="skills" className={`section ${styles.skills} bg-compass`} aria-label="Skills">
       <div className="container">
         <ScrollReveal>
           <SectionHeading

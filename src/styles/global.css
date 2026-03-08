@@ -67,6 +67,100 @@ ul {
   border: 0;
 }
 
+/* ===== Themed Background Utilities ===== */
+
+/* Ocean wave SVG pattern — Hero & Experience */
+.bg-ocean-animated {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-ocean-animated::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23d4a843' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,218.7C672,235,768,245,864,229.3C960,213,1056,171,1152,160C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: 1440px 320px;
+  background-position: bottom;
+  animation: oceanDrift 20s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes oceanDrift {
+  0% { background-position: 0 bottom; }
+  100% { background-position: 1440px bottom; }
+}
+
+/* Parchment noise texture — About & Contact */
+.bg-parchment-fixed {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-parchment-fixed::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  pointer-events: none;
+}
+
+/* Grand Line star-chart pattern — Experience */
+.bg-grand-line-parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-grand-line-parallax::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.035;
+  background-image:
+    radial-gradient(circle at 20% 30%, var(--color-gold) 1px, transparent 1px),
+    radial-gradient(circle at 60% 70%, var(--color-gold) 1px, transparent 1px),
+    radial-gradient(circle at 80% 20%, var(--color-gold) 1px, transparent 1px),
+    radial-gradient(circle at 40% 80%, var(--color-gold) 1px, transparent 1px),
+    radial-gradient(circle at 10% 60%, var(--color-gold) 1.5px, transparent 1.5px),
+    radial-gradient(circle at 90% 50%, var(--color-gold) 1.5px, transparent 1.5px);
+  background-size: 300px 300px;
+  background-attachment: fixed;
+  pointer-events: none;
+}
+
+/* Compass rose pattern — Skills & Projects */
+.bg-compass {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-compass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.02;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Ccircle cx='200' cy='200' r='150' fill='none' stroke='%23d4a843' stroke-width='0.5'/%3E%3Ccircle cx='200' cy='200' r='100' fill='none' stroke='%23d4a843' stroke-width='0.5'/%3E%3Ccircle cx='200' cy='200' r='50' fill='none' stroke='%23d4a843' stroke-width='0.5'/%3E%3Cline x1='200' y1='30' x2='200' y2='370' stroke='%23d4a843' stroke-width='0.5'/%3E%3Cline x1='30' y1='200' x2='370' y2='200' stroke='%23d4a843' stroke-width='0.5'/%3E%3Cline x1='80' y1='80' x2='320' y2='320' stroke='%23d4a843' stroke-width='0.3'/%3E%3Cline x1='320' y1='80' x2='80' y2='320' stroke='%23d4a843' stroke-width='0.3'/%3E%3C/svg%3E");
+  background-size: 400px 400px;
+  pointer-events: none;
+}
+
+/* Ensure section content stays above background pseudo-elements */
+.bg-ocean-animated > *,
+.bg-parchment-fixed > *,
+.bg-grand-line-parallax > *,
+.bg-compass > * {
+  position: relative;
+  z-index: 1;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

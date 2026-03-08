@@ -5,7 +5,7 @@ import styles from './Experience.module.css';
 
 export default function Experience() {
   return (
-    <section id="experience" className={`section ${styles.experience}`} aria-label="Work Experience">
+    <section id="experience" className={`section ${styles.experience} bg-grand-line-parallax`} aria-label="Work Experience">
       <div className="container">
         <ScrollReveal>
           <SectionHeading

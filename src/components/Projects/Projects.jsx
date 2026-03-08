@@ -6,7 +6,7 @@ import styles from './Projects.module.css';
 
 export default function Projects() {
   return (
-    <section id="projects" className={`section ${styles.projects}`} aria-label="Projects">
+    <section id="projects" className={`section ${styles.projects} bg-compass`} aria-label="Projects">
       <div className="container">
         <ScrollReveal>
           <SectionHeading

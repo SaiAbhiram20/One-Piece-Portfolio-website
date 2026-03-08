@@ -4,7 +4,7 @@ import styles from './Hero.module.css';
 
 export default function Hero() {
   return (
-    <section id="home" className={styles.hero} aria-label="Introduction">
+    <section id="home" className={`${styles.hero} bg-ocean-animated`} aria-label="Introduction">
       <div className={styles.ocean}>
         <div className={styles.wave} />
         <div className={styles.wave2} />

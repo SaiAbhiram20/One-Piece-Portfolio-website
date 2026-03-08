@@ -5,7 +5,7 @@ import styles from './About.module.css';
 
 export default function About() {
   return (
-    <section id="about" className={`section ${styles.about}`} aria-label="About Me">
+    <section id="about" className={`section ${styles.about} bg-parchment-fixed`} aria-label="About Me">
       <div className="container">
         <ScrollReveal>
           <SectionHeading

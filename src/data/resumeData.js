@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: 'Sai Abhiram Goud Seekati',
   role: 'Data Analyst',
-  tagline: 'Transforming raw data into strategic insights across 500K+ record databases',
+  tagline: 'Data Analyst transforming complex 500K+ record databases into strategic, actionable insights through end-to-end ETL pipelines and advanced BI reporting.',
   email: 'Abhiramsgoud2003@gmail.com',
   phone: '+1 (361) 695-4112',
   location: 'Corpus Christi, TX (Open to Relocation)',
