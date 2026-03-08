@@ -1,0 +1,178 @@
+.about {
+  background: var(--color-navy);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Logbook */
+.logbook {
+  background: var(--color-navy-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-card);
+}
+
+.logbookHeader {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.logDate {
+  font-family: var(--font-display);
+  color: var(--color-gold);
+  font-size: var(--text-lg);
+}
+
+.intro {
+  font-size: var(--text-lg);
+  color: var(--color-parchment);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  border-left: 3px solid var(--color-gold);
+  padding-left: 1rem;
+}
+
+.summaryText {
+  color: var(--color-text-light);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.value {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.valueIcon {
+  font-size: 1.5rem;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.value h4 {
+  color: var(--color-parchment);
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.value p {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+/* Sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--color-navy-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  box-shadow: var(--shadow-card);
+}
+
+.cardTitle {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Education */
+.eduItem {
+  margin-bottom: 1rem;
+}
+
+.eduItem:last-child {
+  margin-bottom: 0;
+}
+
+.eduDegree {
+  font-weight: 600;
+  color: var(--color-parchment);
+  font-size: var(--text-sm);
+}
+
+.eduSchool {
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+}
+
+.eduDates {
+  color: var(--color-text-muted);
+  font-size: var(--text-xs);
+  margin-top: 0.25rem;
+}
+
+/* Certifications */
+.certList {
+  list-style: none;
+}
+
+.certItem {
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+  padding: 0.375rem 0;
+  border-bottom: 1px solid rgba(212, 168, 67, 0.08);
+}
+
+.certItem:last-child {
+  border-bottom: none;
+}
+
+.certItem::before {
+  content: '⚓ ';
+  color: var(--color-gold);
+}
+
+/* Languages */
+.langList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.langTag {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  background: rgba(212, 168, 67, 0.1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .logbook {
+    padding: 1.5rem;
+  }
+}

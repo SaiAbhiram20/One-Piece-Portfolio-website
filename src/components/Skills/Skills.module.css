@@ -1,0 +1,115 @@
+.skills {
+  background: var(--color-navy-light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--color-navy);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-glow);
+}
+
+.cardHeader {
+  margin-bottom: 1rem;
+}
+
+.thematicLabel {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--color-gold);
+  margin-bottom: 0.25rem;
+}
+
+.cardTitle {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-parchment);
+}
+
+.cardDesc {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  background: rgba(212, 168, 67, 0.08);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+  transition: all var(--transition-base);
+}
+
+.tag:hover {
+  background: rgba(212, 168, 67, 0.15);
+  color: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+.tagIcon {
+  font-size: 0.875rem;
+  color: var(--color-gold);
+}
+
+/* Haki categories */
+.hakiCategory {
+  margin-bottom: 1.25rem;
+}
+
+.hakiCategory:last-child {
+  margin-bottom: 0;
+}
+
+.hakiName {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.hakiThematic {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  color: var(--color-gold);
+  font-weight: normal;
+}
+
+.hakiStandard {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-parchment);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

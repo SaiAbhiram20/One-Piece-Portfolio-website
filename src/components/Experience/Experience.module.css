@@ -1,0 +1,145 @@
+.experience {
+  background: var(--color-navy);
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.entry {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Timeline marker */
+.marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 1.75rem;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-gold);
+  border: 3px solid var(--color-navy);
+  box-shadow: 0 0 0 2px var(--color-gold);
+  flex-shrink: 0;
+}
+
+.line {
+  width: 2px;
+  flex: 1;
+  background: linear-gradient(to bottom, var(--color-gold), transparent);
+  margin-top: 0.5rem;
+}
+
+/* Card */
+.card {
+  flex: 1;
+  background: var(--color-navy-light);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-glow);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+  gap: 1rem;
+}
+
+.thematicRole {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  color: var(--color-gold);
+  margin-bottom: 0.125rem;
+}
+
+.standardRole {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-parchment);
+  margin-bottom: 0.25rem;
+}
+
+.company {
+  font-size: var(--text-base);
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+.dates {
+  white-space: nowrap;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  background: rgba(212, 168, 67, 0.08);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+/* Achievements */
+.achievements {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.achievement {
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--color-text-light);
+  font-size: var(--text-sm);
+  line-height: 1.7;
+}
+
+.achievement::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .cardTop {
+    flex-direction: column;
+  }
+
+  .marker {
+    display: none;
+  }
+
+  .entry {
+    gap: 0;
+  }
+
+  .card {
+    border-left: 3px solid var(--color-gold);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1.25rem;
+  }
+}
