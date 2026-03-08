@@ -5,7 +5,7 @@ export const projects = [
     mission: 'Built an end-to-end churn and revenue-leakage analytics platform integrating subscription, invoice, usage, and support data.',
     loot: 'Explainable churn-scoring model with risk tiers surfaced in Power BI dashboards with drill-through views.',
     techStack: ['SQL', 'Power BI', 'Scikit-learn', 'Logistic Regression', 'Python'],
-    github: 'https://github.com/abhiramsgoud',
+    github: 'https://github.com/SaiAbhiram20/Revenue-Leakage-Customer-Churn-Intelligence-Platform',
     type: 'poneglyph',
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     mission: 'Built a forecasting analytics platform generating 30-day forecasts and 72,000 scenario impact records across multi-store retail demand.',
     loot: 'Executive dashboards for forecast quality monitoring and SKU/store prioritization with scenario-based stress testing.',
     techStack: ['Python', 'SQLite', 'Power BI', 'Forecasting', 'Stress Testing'],
-    github: 'https://github.com/abhiramsgoud',
+    github: 'https://github.com/SaiAbhiram20/Demand-Shock-Forecast-Resilience-Analytics-Platform',
     type: 'treasure',
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     mission: 'Preprocessed 10+ years of financial time-series data and trained an LSTM neural network achieving 85% predictive accuracy.',
     loot: 'Real-time data streaming for live predictions with 30% reduction in inference latency.',
     techStack: ['Python', 'Pandas', 'TensorFlow', 'LSTM', 'Git'],
-    github: 'https://github.com/abhiramsgoud',
+    github: 'https://github.com/SaiAbhiram20/Stock-Price-Prediction',
     type: 'treasure',
   },
 ];
