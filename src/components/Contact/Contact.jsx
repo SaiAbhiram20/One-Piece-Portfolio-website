@@ -39,7 +39,18 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className={`section ${styles.contact} bg-parchment-fixed`} aria-label="Contact">
+    <section id="contact" className={`section ${styles.contact}`} aria-label="Contact">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={styles.videoBackground}
+      >
+        <source src="/hachinosu-one-piece.1920x1080.mp4" type="video/mp4" />
+      </video>
+      <div className={styles.overlay}></div>
+
       <div className="container">
         <ScrollReveal>
           <SectionHeading
