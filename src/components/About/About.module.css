@@ -1,5 +1,33 @@
 .about {
+  position: relative;
+  overflow: hidden;
   background: var(--color-navy);
+}
+
+/* Video Background */
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 22, 40, 0.75);
+  z-index: 0;
+}
+
+.about :global(.container) {
+  position: relative;
+  z-index: 1;
 }
 
 .grid {
