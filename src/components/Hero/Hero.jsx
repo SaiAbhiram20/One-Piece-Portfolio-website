@@ -4,11 +4,17 @@ import styles from './Hero.module.css';
 
 export default function Hero() {
   return (
-    <section id="home" className={`${styles.hero} bg-ocean-animated`} aria-label="Introduction">
-      <div className={styles.ocean}>
-        <div className={styles.wave} />
-        <div className={styles.wave2} />
-      </div>
+    <section id="home" className={styles.hero} aria-label="Introduction">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={styles.videoBackground}
+      >
+        <source src="/One piece landing page.mp4" type="video/mp4" />
+      </video>
+      <div className={styles.overlay}></div>
 
       <div className={styles.content}>
         <motion.div
