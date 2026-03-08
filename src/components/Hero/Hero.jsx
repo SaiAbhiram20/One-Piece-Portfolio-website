@@ -78,7 +78,7 @@ export default function Hero() {
             download
             aria-label="Download Resume"
           >
-            View Wanted Poster
+            View Wanted Poster (Resume)
           </a>
           <a href="#about" className={styles.btnSecondary}>
             Chart the Course
