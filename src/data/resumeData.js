@@ -29,19 +29,6 @@ export const experience = [
       'Identified and implemented cross-functional process improvement opportunities in reporting workflows.',
     ],
   },
-  {
-    thematicTitle: 'Fraud Hunter of the Grand Line',
-    standardTitle: 'Data Analyst Intern',
-    company: 'Cognizant',
-    thematicCompany: 'Allied Fleet — Cognizant',
-    dates: 'Aug 2023 – Dec 2023',
-    achievements: [
-      'Engineered and deployed an Autoencoder Neural Network in TensorFlow/Keras to detect anomalies in 500K+ credit card transactions, boosting fraud detection accuracy by 15%.',
-      'Reduced false positives by 12% through innovative data augmentation and feature engineering.',
-      'Conducted in-depth exploratory data analysis (EDA) that revealed 3 key fraud behavior patterns, directly shaping algorithm improvements.',
-      'Optimized training pipeline, cutting execution time by 20%, enabling faster model iteration and deployment.',
-    ],
-  },
 ];
 
 export const education = [
