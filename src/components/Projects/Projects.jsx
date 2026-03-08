@@ -6,7 +6,18 @@ import styles from './Projects.module.css';
 
 export default function Projects() {
   return (
-    <section id="projects" className={`section ${styles.projects} bg-compass`} aria-label="Projects">
+    <section id="projects" className={`section ${styles.projects}`} aria-label="Projects">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={styles.videoBackground}
+      >
+        <source src="/monkey-d-luffy-straw-hat2.1920x1080.mp4" type="video/mp4" />
+      </video>
+      <div className={styles.overlay}></div>
+
       <div className="container">
         <ScrollReveal>
           <SectionHeading

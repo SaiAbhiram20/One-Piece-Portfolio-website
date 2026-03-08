@@ -30,7 +30,18 @@ function SkillTag({ name, icon }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className={`section ${styles.skills} bg-compass`} aria-label="Skills">
+    <section id="skills" className={`section ${styles.skills}`} aria-label="Skills">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={styles.videoBackground}
+      >
+        <source src="/moonlight-seascape.1920x1080.mp4" type="video/mp4" />
+      </video>
+      <div className={styles.overlay}></div>
+
       <div className="container">
         <ScrollReveal>
           <SectionHeading

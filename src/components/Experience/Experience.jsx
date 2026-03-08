@@ -5,7 +5,18 @@ import styles from './Experience.module.css';
 
 export default function Experience() {
   return (
-    <section id="experience" className={`section ${styles.experience} bg-grand-line-parallax`} aria-label="Work Experience">
+    <section id="experience" className={`section ${styles.experience}`} aria-label="Work Experience">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={styles.videoBackground}
+      >
+        <source src="/thousand-sunny-ship.1920x1080.mp4" type="video/mp4" />
+      </video>
+      <div className={styles.overlay}></div>
+
       <div className="container">
         <ScrollReveal>
           <SectionHeading
