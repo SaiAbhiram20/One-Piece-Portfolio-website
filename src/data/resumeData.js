@@ -57,11 +57,11 @@ export const education = [
 ];
 
 export const certifications = [
-  'Alteryx Masterclass for Data Analytics',
-  'ETL and Reporting Certificate',
-  'Data Science Internship Certificate',
-  'Google Analytics Certificate',
-  'SQL Certificate',
+  { name: 'Alteryx Masterclass for Data Analytics', url: 'https://drive.google.com/file/d/11cf66Xcol0KqP-l2xvKuHGOrGzGYmm1U/view?usp=sharing' },
+  { name: 'Data Science with Python', url: 'https://drive.google.com/file/d/1cpSbLC7kQoZr-J_Lo0ujvstQ2cS0CkAl/view?usp=sharing' },
+  { name: 'Data Science Internship Certificate', url: 'https://drive.google.com/file/d/1SpaHLjtMthQjWFTkLbPOX0frjBsdkarL/view?usp=sharing' },
+  { name: 'Google Analytics Certificate', url: 'https://drive.google.com/file/d/1e0X_1EwoUJ2Wd39y38c43umgDPzXIoaJ/view?usp=sharing' },
+  { name: 'SQL Certificate', url: 'https://drive.google.com/file/d/1qhF-0_5LFU3ZbnD9NCJVIQdkL0SR6g-C/view?usp=sharing' },
 ];
 
 export const languages = [

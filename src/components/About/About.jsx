@@ -82,7 +82,16 @@ export default function About() {
                 <h3 className={styles.cardTitle}>Certifications</h3>
                 <ul className={styles.certList}>
                   {certifications.map((cert, i) => (
-                    <li key={i} className={styles.certItem}>{cert}</li>
+                    <li key={i} className={styles.certItem}>
+                      <a 
+                        href={cert.url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className={styles.certLink}
+                      >
+                        {cert.name}
+                      </a>
+                    </li>
                   ))}
                 </ul>
               </div>

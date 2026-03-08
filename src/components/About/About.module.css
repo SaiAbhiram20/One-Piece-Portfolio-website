@@ -176,6 +176,17 @@
   color: var(--color-gold);
 }
 
+.certLink {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.certLink:hover {
+  color: var(--color-gold-light);
+  text-decoration: underline;
+}
+
 /* Languages */
 .langList {
   display: flex;
