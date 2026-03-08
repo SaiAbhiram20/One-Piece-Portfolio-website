@@ -11,11 +11,24 @@ export default function Hero() {
       </div>
 
       <div className={styles.content}>
+        <motion.div
+          className={styles.avatarWrapper}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          <img
+            src={personalInfo.profileImage}
+            alt={personalInfo.name}
+            className={styles.avatar}
+          />
+        </motion.div>
+
         <motion.p
           className={styles.greeting}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
         >
           Setting Sail for New Horizons
         </motion.p>
@@ -24,7 +37,7 @@ export default function Hero() {
           className={styles.name}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
+          transition={{ duration: 0.6, delay: 0.5 }}
         >
           {personalInfo.name}
         </motion.h1>
@@ -33,7 +46,7 @@ export default function Hero() {
           className={styles.role}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
+          transition={{ duration: 0.6, delay: 0.7 }}
         >
           {personalInfo.role}
         </motion.p>
@@ -42,7 +55,7 @@ export default function Hero() {
           className={styles.tagline}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          transition={{ duration: 0.6, delay: 0.9 }}
         >
           {personalInfo.tagline}
         </motion.p>
@@ -51,7 +64,7 @@ export default function Hero() {
           className={styles.ctas}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1.0 }}
+          transition={{ duration: 0.6, delay: 1.1 }}
         >
           <a
             href={personalInfo.resumeUrl}

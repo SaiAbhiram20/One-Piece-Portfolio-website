@@ -67,6 +67,22 @@
   max-width: 800px;
 }
 
+/* Profile Picture */
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-gold);
+  box-shadow: 0 0 30px rgba(212, 168, 67, 0.2), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
 .greeting {
   font-family: var(--font-display);
   font-size: var(--text-xl);
@@ -144,6 +160,11 @@
 }
 
 @media (max-width: 768px) {
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
+
   .name {
     font-size: var(--text-4xl);
   }
@@ -158,6 +179,11 @@
 }
 
 @media (max-width: 480px) {
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+
   .name {
     font-size: var(--text-3xl);
   }

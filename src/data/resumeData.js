@@ -8,6 +8,7 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/sai-abhiram-goud-seekati',
   github: 'https://github.com/abhiramsgoud',
   resumeUrl: '/Sai-Abhiram-Goud-Seekati-Resume.pdf',
+  profileImage: '/profile.jpg',
 };
 
 export const summary = `Data professional with hands-on experience in data sourcing, data governance, metadata management, data integration, and BI reporting across large-scale relational databases (500K+ records). Builds end-to-end analytics solutions using Python, SQL, Excel, and Power BI—from ETL/ELT pipelines and data modeling to dashboarding and stakeholder-ready insights.`;
