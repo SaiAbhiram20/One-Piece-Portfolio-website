@@ -17,16 +17,29 @@ export const summary = `Data professional with hands-on experience in data sourc
 export const experience = [
   {
     thematicTitle: 'Navigator of the Data Seas',
-    standardTitle: 'Data Analyst Intern',
+    standardTitle: 'Software & Data Engineering Intern',
     company: 'SAS Data and AI Solutions',
     thematicCompany: 'Allied Fleet — SAS Data and AI Solutions',
     dates: 'Sept 2025 – Dec 2025',
     achievements: [
-      'Reengineered PostgreSQL queries across 500K+ energy and billing datasets, leveraging indexing, CTEs, and execution plan analysis to deliver a 35% boost in processing efficiency.',
-      'Elevated data governance standards by establishing metadata management practices, leading data validation, reconciliation, and root cause investigations.',
-      'Spearheaded the development of interactive Power BI dashboards using advanced DAX and dimensional modeling, reducing ad-hoc reporting requests by 40%.',
-      'Collaborated with cross-functional stakeholders to gather business requirements, developed business and technical requirement documents, and delivered data-driven insights.',
-      'Identified and implemented cross-functional process improvement opportunities in reporting workflows.',
+      'Developed and optimized Python-based ETL pipelines and PostgreSQL query logic across 500K+ energy and billing records; applied indexing, CTEs, and execution plan analysis to improve processing efficiency by 35%.',
+      'Engineered interactive Power BI dashboards leveraging advanced DAX and dimensional data models, reducing ad-hoc reporting requests by 40% and accelerating executive decision cycles.',
+      'Implemented metadata management standards and data governance workflows, including data validation, reconciliation, and root cause investigation scripts in Python, reinforcing KPI reliability across enterprise systems.',
+      'Collaborated cross-functionally to gather business and technical requirements, producing data mapping specifications and interface documentation that enabled seamless system integrations and stakeholder acceptance.',
+      'Contributed to process automation initiatives in reporting workflows using Python scripting in a Linux/Unix environment, improving pipeline reliability and reducing manual effort.',
+    ],
+  },
+  {
+    thematicTitle: 'Software Engineer Intern (ML)',
+    standardTitle: 'Software Engineer Intern (ML)',
+    company: 'Cognizant',
+    thematicCompany: 'Allied Fleet — Cognizant',
+    dates: 'Aug 2023 – Dec 2023',
+    achievements: [
+      'Designed and trained an Autoencoder neural network in TensorFlow/Keras to detect anomalies across 500K+ credit card transactions; engineered the full model pipeline from data ingestion to inference, achieving a 15% improvement in fraud detection accuracy over the previous rule-based baseline.',
+      'Applied SMOTE-based data augmentation and feature engineering (Python, Pandas, NumPy) to address class imbalance in transaction data, reducing false positives by 12% and improving model reliability for production deployment.',
+      'Conducted large-scale EDA using Pandas, Matplotlib, and Seaborn to uncover 3 critical fraud behavior patterns; translated findings into algorithmic improvements that directly enhanced model detection performance.',
+      'Optimized the model training pipeline through vectorized operations and batch processing, cutting execution time by 20% and enabling faster model iteration and deployment.',
     ],
   },
 ];
