@@ -1,6 +1,6 @@
 import {
   SiPython, SiPostgresql, SiR, SiPandas, SiNumpy, SiScikitlearn,
-  SiTensorflow, SiKeras,
+  SiTensorflow, SiKeras, SiFlask, SiReact, SiDuckdb,
   SiMysql, SiSqlite, SiMongodb, SiGit, SiGithub,
   SiDocker, SiJupyter, SiLinux,
 } from 'react-icons/si';
@@ -12,7 +12,7 @@ import styles from './Skills.module.css';
 
 const iconMap = {
   SiPython, SiPostgresql, SiR, SiPandas, SiNumpy, SiScikitlearn,
-  SiTensorflow, SiKeras,
+  SiTensorflow, SiKeras, SiFlask, SiReact, SiDuckdb,
   SiMysql, SiSqlite, SiMongodb, SiGit, SiGithub,
   SiDocker, SiJupyter, SiLinux,
   FaChartBar, FaFileExcel, FaAws,

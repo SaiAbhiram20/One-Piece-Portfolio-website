@@ -18,12 +18,12 @@ export const projects = [
     type: 'treasure',
   },
   {
-    title: 'Stock Price Prediction with LSTM',
-    thematicTitle: 'The LSTM Log Pose',
-    mission: 'Preprocessed 10+ years of financial time-series data and trained an LSTM neural network achieving 85% predictive accuracy.',
-    loot: 'Real-time data streaming for live predictions with 30% reduction in inference latency.',
-    techStack: ['Python', 'Pandas', 'TensorFlow', 'LSTM', 'Git'],
-    github: 'https://github.com/SaiAbhiram20/Stock-Price-Prediction',
+    title: 'Intelligent Customer Support System',
+    thematicTitle: 'The Navigator\'s Oracle',
+    mission: 'Architected an end-to-end NLP-powered chatbot system with a RESTful Flask backend and PostgreSQL database, reducing average query resolution time through automated intent classification and entity extraction.',
+    loot: 'Explainable AI (XAI) techniques surfacing model reasoning with confidence scores; full-stack deployment from schema design and ETL pipelines to a React frontend.',
+    techStack: ['NLP', 'Flask', 'PostgreSQL', 'Python', 'React', 'Explainable AI'],
+    github: 'https://github.com/SaiAbhiram20/Intelligent-Customer-Support-System',
     type: 'treasure',
   },
 ];

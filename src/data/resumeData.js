@@ -12,15 +12,15 @@ export const personalInfo = {
   profileImage: '/profile.jpg',
 };
 
-export const summary = `Data professional with hands-on experience in data sourcing, data governance, metadata management, data integration, and BI reporting across large-scale relational databases (500K+ records). Builds end-to-end analytics solutions using Python, SQL, Excel, and Power BI—from ETL/ELT pipelines and data modeling to dashboarding and stakeholder-ready insights.`;
+export const summary = `AWS Certified Data Engineer (Associate) and Cloud Practitioner with hands-on experience building end-to-end data pipelines, machine learning systems, and BI platforms across cloud-native and on-premise environments. Delivered a 35% improvement in ETL throughput across 500K+ records and reduced ad-hoc reporting requests by 40% through Power BI dashboards. Engineered a full TensorFlow/Keras Autoencoder fraud detection pipeline achieving 15% accuracy improvement and 12% reduction in false positives. Proficient in Python, SQL, PostgreSQL, Power BI, TensorFlow, Scikit-learn, Flask, Docker, and AWS services including S3, Glue, SageMaker, Athena, Lambda, and MWAA.`;
 
 export const experience = [
   {
     thematicTitle: 'Navigator of the Data Seas',
-    standardTitle: 'Software & Data Engineering Intern',
+    standardTitle: 'Data Analyst Intern',
     company: 'SAS Data and AI Solutions',
     thematicCompany: 'Allied Fleet — SAS Data and AI Solutions',
-    dates: 'Sept 2025 – Dec 2025',
+    dates: 'Aug 2025 – Dec 2025',
     achievements: [
       'Developed and optimized Python-based ETL pipelines and PostgreSQL query logic across 500K+ energy and billing records; applied indexing, CTEs, and execution plan analysis to improve processing efficiency by 35%.',
       'Engineered interactive Power BI dashboards leveraging advanced DAX and dimensional data models, reducing ad-hoc reporting requests by 40% and accelerating executive decision cycles.',
@@ -30,16 +30,16 @@ export const experience = [
     ],
   },
   {
-    thematicTitle: 'Software Engineer Intern (ML)',
-    standardTitle: 'Software Engineer Intern (ML)',
-    company: 'Cognizant',
-    thematicCompany: 'Allied Fleet — Cognizant',
-    dates: 'Aug 2023 – Dec 2023',
+    thematicTitle: 'Navigator of the ML Seas',
+    standardTitle: 'Data Analyst Intern',
+    company: 'Campalin Innovations',
+    thematicCompany: 'Allied Fleet — Campalin Innovations',
+    dates: 'Jan 2023 – Aug 2023',
     achievements: [
-      'Designed and trained an Autoencoder neural network in TensorFlow/Keras to detect anomalies across 500K+ credit card transactions; engineered the full model pipeline from data ingestion to inference, achieving a 15% improvement in fraud detection accuracy over the previous rule-based baseline.',
-      'Applied SMOTE-based data augmentation and feature engineering (Python, Pandas, NumPy) to address class imbalance in transaction data, reducing false positives by 12% and improving model reliability for production deployment.',
-      'Conducted large-scale EDA using Pandas, Matplotlib, and Seaborn to uncover 3 critical fraud behavior patterns; translated findings into algorithmic improvements that directly enhanced model detection performance.',
-      'Optimized the model training pipeline through vectorized operations and batch processing, cutting execution time by 20% and enabling faster model iteration and deployment.',
+      'Designed and trained an Autoencoder neural network in TensorFlow/Keras to detect anomalies across 500K+ credit card transactions, engineering the full model pipeline from data ingestion to inference, achieving a 15% improvement in fraud detection accuracy.',
+      'Applied SMOTE-based data augmentation and feature engineering using Python, Pandas, and NumPy to address class imbalance in transaction data, reducing false positives by 12% and improving model reliability for production deployment.',
+      'Conducted large-scale EDA using Pandas, Matplotlib, and Seaborn to uncover 3 critical fraud behavior patterns, translating findings into algorithmic improvements that directly enhanced detection performance.',
+      'Optimized the model training pipeline through vectorized operations and batch processing, cutting end-to-end execution time by 20% and enabling faster experimentation cycles.',
     ],
   },
 ];
@@ -48,7 +48,7 @@ export const education = [
   {
     degree: 'Master of Science, Computer Science',
     school: 'Texas A&M University – Corpus Christi, TX',
-    dates: 'Aug 2024 – May 2025',
+    dates: 'Aug 2024 – May 2026',
   },
   {
     degree: 'Bachelor of Engineering, Computer Science (AI & ML)',

@@ -15,6 +15,9 @@ export const devilFruitPowers = {
     { name: 'Excel', icon: 'FaFileExcel' },
     { name: 'Matplotlib', icon: 'SiPython' },
     { name: 'Seaborn', icon: 'SiPython' },
+    { name: 'Flask', icon: 'SiFlask' },
+    { name: 'React', icon: 'SiReact' },
+    { name: 'LSTM', icon: 'SiTensorflow' },
   ],
 };
 
@@ -49,6 +52,7 @@ export const navigationalTools = {
     { name: 'MySQL', icon: 'SiMysql' },
     { name: 'PostgreSQL', icon: 'SiPostgresql' },
     { name: 'SQLite', icon: 'SiSqlite' },
+    { name: 'DuckDB', icon: 'SiDuckdb' },
     { name: 'MongoDB', icon: 'SiMongodb' },
     { name: 'Git', icon: 'SiGit' },
     { name: 'GitHub', icon: 'SiGithub' },
