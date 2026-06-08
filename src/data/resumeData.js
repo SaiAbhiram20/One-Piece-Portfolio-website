@@ -1,10 +1,10 @@
 export const personalInfo = {
   name: 'Sai Abhiram Goud Seekati',
-  role: 'Data Analyst',
-  tagline: 'Data Analyst transforming complex 500K+ record databases into strategic, actionable insights through end-to-end ETL pipelines and advanced BI reporting.',
+  role: 'Data Engineer',
+  tagline: 'AWS Certified Data Engineer building cloud-native pipelines on S3, Glue, and SageMaker — turning 500K+ record datasets into executive-ready BI insights.',
   email: 'Abhiramsgoud2003@gmail.com',
   phone: '+1 (361) 695-4112',
-  location: 'Corpus Christi, TX (Open to Relocation)',
+  location: 'United States (Open to Relocation)',
   linkedin: 'https://www.linkedin.com/in/saiabhiramgoudseekati',
   github: 'https://github.com/SaiAbhiram20',
   instagram: 'https://www.instagram.com/saiabhiramgoud_20',
@@ -58,6 +58,8 @@ export const education = [
 ];
 
 export const certifications = [
+  { name: 'AWS Certified Data Engineer – Associate', url: 'https://drive.google.com/file/d/1F8fu4GB52mPJ5f6IDH-PY3M1sHCOK8QI/view?usp=sharing' },
+  { name: 'AWS Certified Cloud Practitioner', url: 'https://drive.google.com/file/d/1C7_r5rSwsJ_gH_A_UR3VlXnYOIqbmrxw/view?usp=sharing' },
   { name: 'Alteryx Masterclass for Data Analytics', url: 'https://drive.google.com/file/d/11cf66Xcol0KqP-l2xvKuHGOrGzGYmm1U/view?usp=sharing' },
   { name: 'Data Science with Python', url: 'https://drive.google.com/file/d/1cpSbLC7kQoZr-J_Lo0ujvstQ2cS0CkAl/view?usp=sharing' },
   { name: 'Data Science Internship Certificate', url: 'https://drive.google.com/file/d/1SpaHLjtMthQjWFTkLbPOX0frjBsdkarL/view?usp=sharing' },
